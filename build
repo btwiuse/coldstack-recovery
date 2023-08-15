@@ -1,0 +1,5 @@
+coldstack build-spec --dev --disable-default-bootnode > dev.json
+./template.ts > template.json
+./patch.ts > patch.json
+coldstack build-spec --chain=patch.json --raw --disable-default-bootnode > raw.json
+coldstack --chain=raw.json --tmp --validator --alice --rpc-cors=all
