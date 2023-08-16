@@ -2,7 +2,10 @@ all: fork.json
 	#
 	# 7. done
 	#
-	echo "coldstack --chain=./build/fork.json --tmp --validator --alice --rpc-cors=all"
+	# You can launch the forked network with the following command if you didn't
+	#   make any changes to the default validator set (//Alice)
+	#
+	@ echo "coldstack --chain=./build/fork.json --tmp --validator --alice --rpc-cors=all"
 
 fork.json: raw.json
 	#
