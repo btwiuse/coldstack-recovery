@@ -1,6 +1,6 @@
 #!/usr/bin/env -S deno run -A
 
-let templateJSON = Deno.readTextFileSync("template.json");
+let templateJSON = Deno.readTextFileSync("./build/template.json");
 
 let template = JSON.parse(templateJSON);
 
@@ -16,7 +16,10 @@ let patches = [
 ];
 
 for (let p of patches) {
-  patched = patched.replace(`"${p}"`, Deno.readTextFileSync(`${p}.json`));
+  patched = patched.replace(
+    `"${p}"`,
+    Deno.readTextFileSync(`${p}.json`).trim(),
+  );
 }
 
 console.log(patched);

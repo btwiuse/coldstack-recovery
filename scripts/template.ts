@@ -1,6 +1,6 @@
 #!/usr/bin/env -S deno run -A
 
-let devJSON = Deno.readTextFileSync("dev.json");
+let devJSON = Deno.readTextFileSync("./build/dev.json");
 
 let dev = JSON.parse(devJSON);
 
