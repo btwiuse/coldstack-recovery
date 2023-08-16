@@ -1,14 +1,20 @@
-all: raw.json
+all: fork.json
 	#
-	# 6. done
+	# 7. done
 	#
-	echo "coldstack --chain=./build/raw.json --tmp --validator --alice --rpc-cors=all"
+	echo "coldstack --chain=./build/fork.json --tmp --validator --alice --rpc-cors=all"
+
+fork.json: raw.json
+	#
+	# 6. generating ./build/fork.json
+	#
+	deno run -A ./scripts/raw.ts > ./build/fork.json
 
 raw.json: patch.json
 	#
 	# 5. generating ./build/raw.json
 	#
-	coldstack build-spec --chain=./build/patch.json --raw --disable-default-bootnode > ./build/raw.json
+	coldstack build-spec --chain=./build/patch.json --raw --disable-default-bootnode | jq -S . > ./build/raw.json
 
 patch.json: template.json
 	#
