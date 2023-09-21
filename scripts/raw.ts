@@ -56,7 +56,7 @@ let rawKvs = kvs.map(([k, v]) => [
       hexToU8a(blake2_128Concat(k)),
     ),
   ),
-  u8aToHex(registry.createType("u128", v).toU8a()),
+  u8aToHex(registry.createType("u128", v.replaceAll(',', '')).toU8a()),
 ]);
 
 // console.error(Object.fromEntries(rawKvs.slice(0, 1)))
