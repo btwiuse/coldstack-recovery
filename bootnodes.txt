@@ -1,0 +1,53 @@
+gran:
+  Public key (hex):  0x848234b2a12535eb6e4f41a52989195b5b413ff97ad390aaf35b928ccb3802fb
+  Public key (SS58): 5F4SrfjX8sewa5JWJpuPdfakYY1DXqRm6VwFJraSHxKkHHFt
+  Account ID:        0x848234b2a12535eb6e4f41a52989195b5b413ff97ad390aaf35b928ccb3802fb
+  SS58 Address:      5F4SrfjX8sewa5JWJpuPdfakYY1DXqRm6VwFJraSHxKkHHFt
+  
+  
+aura:  
+  Public key (hex):  0x5a451ac7f62c0fcca539519309d945b1dd56cbf99e2638312aed6facd4549a5d
+  Public key (SS58): 5E74hGiCSWzoBDqNrkdftyJo57rFKNenxc3DsreB6M4u8p8b
+  Account ID:        0x5a451ac7f62c0fcca539519309d945b1dd56cbf99e2638312aed6facd4549a5d
+  SS58 Address:      5E74hGiCSWzoBDqNrkdftyJo57rFKNenxc3DsreB6M4u8p8b
+-------------
+gran:
+  Public key (hex):  0x17aa3f240fe0572b974ccbc5c13562081014505085370c868ba409d5cc796b9a
+  Public key (SS58): 5CbjXpzmdcQVbNT7o9ETrG8v86EieQaiWLuKy2YnqeCuRfgo
+  Account ID:        0x17aa3f240fe0572b974ccbc5c13562081014505085370c868ba409d5cc796b9a
+  SS58 Address:      5CbjXpzmdcQVbNT7o9ETrG8v86EieQaiWLuKy2YnqeCuRfgo
+  
+aura:
+  Public key (hex):  0xd2aac9da4b1b73c6dfd1c782cb1da5d1296c1f80a598983e24977701993bdf43
+  Public key (SS58): 5GpveXCrC5VZdGayLajXFGahFne4amTz1QeQ7LuHaSzoLv2Z
+  Account ID:        0xd2aac9da4b1b73c6dfd1c782cb1da5d1296c1f80a598983e24977701993bdf43
+  SS58 Address:      5GpveXCrC5VZdGayLajXFGahFne4amTz1QeQ7LuHaSzoLv2Z 
+--------------
+gran:
+  Public key (hex):  0xdf9ea92b4e19ca81159320bcec364a9231db7cb018a99b67b978dd6e999a1e47
+  Public key (SS58): 5H7uffv3KVSiGfcExYLQA1b72Aheqp69JxFLUYjGjoWWmkBm
+  Account ID:        0xdf9ea92b4e19ca81159320bcec364a9231db7cb018a99b67b978dd6e999a1e47
+  SS58 Address:      5H7uffv3KVSiGfcExYLQA1b72Aheqp69JxFLUYjGjoWWmkBm
+  
+aura:
+  Public key (hex):  0x9ee25ccbfd6dc0b3d3c81c88946f263db876b85e9e3d6957d489028f2c928c5c
+  Public key (SS58): 5Ff2fcrjHmQZ8Kqq4HTec2gjqs9K95k6oF85F1abey6ubJ7C
+  Account ID:        0x9ee25ccbfd6dc0b3d3c81c88946f263db876b85e9e3d6957d489028f2c928c5c
+  SS58 Address:      5Ff2fcrjHmQZ8Kqq4HTec2gjqs9K95k6oF85F1abey6ubJ7C
+------------
+gran:
+
+  Public key (hex):  0xe26dbe2c90cd32c24c3c20103129806c51c53d064480ed13b5a34a52449167f1
+  Public key (SS58): 5HBbHAeCSNDV7n7u82JJW2WEbM7bp8Ki9rePFtQSDFLGsckg
+  Account ID:        0xe26dbe2c90cd32c24c3c20103129806c51c53d064480ed13b5a34a52449167f1
+  SS58 Address:      5HBbHAeCSNDV7n7u82JJW2WEbM7bp8Ki9rePFtQSDFLGsckg
+  
+aura:
+
+  Public key (hex):  0x908464239d38459ce102dbe8eba5266f373fa25d72f736ce79b34c8cca7f891f
+  Public key (SS58): 5FLC5eZuw3For9QSrin51m3DG1oRnmaf1NtknfPj2TmJNCjx
+  Account ID:        0x908464239d38459ce102dbe8eba5266f373fa25d72f736ce79b34c8cca7f891f
+  SS58 Address:      5FLC5eZuw3For9QSrin51m3DG1oRnmaf1NtknfPj2TmJNCjx
+-------------
+
+ 
