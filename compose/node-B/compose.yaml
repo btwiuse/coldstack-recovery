@@ -6,6 +6,7 @@ services:
     command: > 
             --name 'node-B'
             --port 33332
+            --node-key 0xd2aac9da4b1b73c6dfd1c782cb1da5d1296c1f80a598983e24977701993bdf43
             --chain /fork.json
             --base-path /data
             --keystore-path /keystore

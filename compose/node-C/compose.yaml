@@ -6,6 +6,7 @@ services:
     command: > 
             --name 'node-C'
             --port 33333
+            --node-key 0x9ee25ccbfd6dc0b3d3c81c88946f263db876b85e9e3d6957d489028f2c928c5c
             --chain /fork.json
             --base-path /data
             --keystore-path /keystore

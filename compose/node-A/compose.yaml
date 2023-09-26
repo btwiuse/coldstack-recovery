@@ -6,6 +6,7 @@ services:
     command: > 
             --name 'node-A'
             --port 33331
+            --node-key 0x5a451ac7f62c0fcca539519309d945b1dd56cbf99e2638312aed6facd4549a5d
             --chain /fork.json
             --base-path /data
             --keystore-path /keystore
