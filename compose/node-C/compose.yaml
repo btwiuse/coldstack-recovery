@@ -1,0 +1,24 @@
+version: "3"
+services:
+  validator:
+    image: coldstack/privatechain:${BLOCKCHAIN_DOCKER_TAG:-spec107}
+    user: root
+    command: > 
+            --name 'node-C'
+            --chain /fork.json
+            --base-path /data
+            --keystore-path /keystore
+            --pruning archive
+            --execution wasm
+            --no-telemetry
+            --no-prometheus
+            --alice
+            --validator
+            --rpc-cors all
+            --ws-max-connections 50000
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - ./data:/data
+      - ./keystore:/keystore
+      - ./fork.json:/fork.json
