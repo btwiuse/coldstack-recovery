@@ -5,6 +5,7 @@ services:
     user: root
     command: > 
             --name 'node-A'
+            --port 33331
             --chain /fork.json
             --base-path /data
             --keystore-path /keystore
