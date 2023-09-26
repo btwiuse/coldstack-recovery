@@ -12,7 +12,6 @@ services:
             --execution wasm
             --no-telemetry
             --no-prometheus
-            --alice
             --validator
             --rpc-cors all
             --ws-max-connections 50000
