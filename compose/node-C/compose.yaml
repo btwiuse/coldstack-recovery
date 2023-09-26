@@ -7,6 +7,10 @@ services:
             --name 'node-C'
             --port 33333
             --node-key 0x9ee25ccbfd6dc0b3d3c81c88946f263db876b85e9e3d6957d489028f2c928c5c
+            --bootnodes
+            /ip4/127.0.0.1/tcp/33331/p2p/12D3KooWH1zBEgogTPx4tNpxaTeMz2hyEtRZt73opSFXKh9P5LyK
+            /ip4/127.0.0.1/tcp/33332/p2p/12D3KooWG2Jfe7o4veJyTyb7RVpvWHnG1gkvrAzeKwZTfpLUDY9R
+            /ip4/127.0.0.1/tcp/33333/p2p/12D3KooWAuAfEBeSvBc7UzcCoGz1vGrnMNE3zK2RYELsMYr9tdHW
             --chain /fork.json
             --base-path /data
             --keystore-path /keystore
