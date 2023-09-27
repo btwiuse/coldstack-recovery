@@ -1,0 +1,1 @@
+coldstack --tmp --chain ./build/patch.json --validator --keystore-path ./compose/node-B/keystore --port=33332
