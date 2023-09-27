@@ -21,6 +21,8 @@ services:
             --validator
             --rpc-cors all
             --ws-max-connections 50000
+            --rpc-port 9923
+            --ws-port 9924
     restart: unless-stopped
     network_mode: host
     volumes:

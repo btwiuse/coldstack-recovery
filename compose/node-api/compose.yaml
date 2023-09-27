@@ -19,7 +19,7 @@ services:
             --validator
             --rpc-cors all
             --ws-max-connections 50000
-            --rpc-port 9933
+            --rpc-port 9943
             --ws-port 9944
     restart: unless-stopped
     network_mode: host
