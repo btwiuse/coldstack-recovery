@@ -1,5 +1,0 @@
-# api
-ssh root@65.108.7.232
-
-# validators
-ssh root@65.21.94.81
